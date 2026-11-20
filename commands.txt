@@ -1,0 +1,5 @@
+head -n 2 data/employees.csv
+./.venv/bin/python -m pip install numpy
+./.venv/bin/python -m pip install pandas openpyxl
+./.venv/bin/python -m pip freeze > requirements.txt
+./.venv/bin/python main.py
